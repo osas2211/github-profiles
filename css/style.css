@@ -53,6 +53,7 @@ a.profile{
 .follow{
     display: flex;
     width: 30vw;
+    justify-content: space-between;
     position: absolute;
     bottom: -5rem;
     right: 1.5rem;
