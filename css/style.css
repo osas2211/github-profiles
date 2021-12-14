@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    z-index: -1;
+}
+
+img, header div{
+    width: 100%;
+    height: 100%;
+}
+
+.ham{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+
+.name{
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: -11.5rem;
+    left: -4.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+a.profile{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+    padding-right: 5rem;
+    background-color: rgb(45, 45, 223);
+    position: absolute;
+    bottom: -1.5rem;
+    right: 0rem;
+    z-index: 2;
+}
+
+.follow{
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    bottom: -5rem;
+    right: 1.5rem;
+}
+
+.follow h3, p{
+    opacity: 0.8;
+}
