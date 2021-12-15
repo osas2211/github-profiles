@@ -61,12 +61,17 @@ a.profile{
 
 .follow{
     display: flex;
-    width: 35vw;
+    width: 30vw;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     bottom: -5rem;
     right: 1.5rem;
+}
+
+.followers{
+    display: inline-block;
+    margin-left: -1rem;
 }
 
 .follow h3, p{
