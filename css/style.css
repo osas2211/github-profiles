@@ -12,10 +12,14 @@
 
 body{
     background-color: #fefffb;
+    z-index: -5;
+    position: relative;
 }
 
 main{
     overflow: hidden;
+    position: relative;
+    z-index: -5;
 }
 
 h1,h2,h3,h4,h5{
@@ -30,12 +34,19 @@ header{
     width: 100vw;
     height: 50vh;
     position: relative;
-    z-index: -1;
+    z-index: -20;
 }
 
 img, header div{
     width: 100%;
     height: 100%;
+}
+
+.user-img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
 }
 
 .ham{
@@ -54,6 +65,7 @@ img, header div{
     left: 2.3rem;
     background-color: #fff;
     border-radius: 50%;
+    z-index: 50;
 }
 
 .name{
@@ -87,8 +99,9 @@ a.profile{
     position: absolute;
     bottom: -1.5rem;
     right: 0rem;
-    z-index: 2;
+    z-index: 600;
 }
+
 
 .follow{
     display: flex;
@@ -110,11 +123,13 @@ a.profile{
     opacity: 0.8;
 }
 
-.about, .repo{
+.about, .repos{
     margin: 8rem 1rem 2rem 6.1rem;
+    position: relative;
+    z-index: -4;
 }
 
-.about h2, .repo h2{
+.about h2, .repos h2{
     margin-bottom: 0.5rem;
     opacity: 0.9;
     letter-spacing: 2px;
@@ -144,6 +159,6 @@ a.profile{
     padding-left: 0.1rem;
 }
 
-.repo{
+.repos{
     margin-top: 2.5rem;
 }
