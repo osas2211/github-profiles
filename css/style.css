@@ -110,11 +110,11 @@ a.profile{
     opacity: 0.8;
 }
 
-.about{
-    margin: 8rem 1rem 10rem 6.1rem;
+.about, .repo{
+    margin: 8rem 1rem 2rem 6.1rem;
 }
 
-.about h2{
+.about h2, .repo h2{
     margin-bottom: 0.5rem;
     opacity: 0.9;
     letter-spacing: 2px;
@@ -124,4 +124,26 @@ a.profile{
 
 .about p{
     font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.sub-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-info img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.sub-info p{
+    display: flex;
+}
+.sub-info span{
+    padding-left: 0.1rem;
+}
+
+.repo{
+    margin-top: 2.5rem;
 }
