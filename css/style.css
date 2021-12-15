@@ -72,9 +72,20 @@ a.profile{
 .followers{
     display: inline-block;
     margin-right: 1rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
 }
 
 .follow h3, p{
     opacity: 0.8;
+}
+
+.about{
+    margin: 8rem 0rem 2rem 7rem;
+}
+
+.about h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
