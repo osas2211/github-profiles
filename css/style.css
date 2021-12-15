@@ -88,4 +88,9 @@ a.profile{
     opacity: 0.9;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.about p{
+    font-size: 15px;
 }
