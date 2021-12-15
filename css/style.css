@@ -3,9 +3,7 @@
 :root{
     --primary-color: #427AA1;
 }
-hr{
-    display: inline;
-}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +11,11 @@ hr{
 }
 
 body{
-    background-color: #EFF7CF;
+    background-color: #fefffb;
+}
+
+main{
+    overflow: hidden;
 }
 
 h1,h2,h3,h4,h5{
@@ -57,11 +59,20 @@ img, header div{
 .name{
     transform: rotate(90deg);
     position: absolute;
-    bottom: -11rem;
-    left: -4.5rem;
+    bottom: -18rem;
+    left: -11.8rem;
     font-size: 1.2rem;
     letter-spacing: 6px;
     text-transform: uppercase;
+}
+
+.name span{
+    display: inline-block;
+    width: 15rem;
+    height: 0rem;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    
 }
 
 
@@ -100,7 +111,7 @@ a.profile{
 }
 
 .about{
-    margin: 8rem 1rem 2rem 6.1rem;
+    margin: 8rem 1rem 10rem 6.1rem;
 }
 
 .about h2{
