@@ -4,6 +4,8 @@ const mainHeader = document.querySelector(".main-header");
 const repos  = document.querySelector(".cards");
 const about = document.querySelector(".about");
 const btn = document.querySelector("#search");
+const btn2 = document.querySelector(".main-search");
+const form = document.querySelector("form");
 const searchInput = document.querySelector("#search-name");
 
 
@@ -14,8 +16,6 @@ function toggleInterfaces(){
     topHeader.classList.remove("show")
     topHeader.classList.add("hide")
 }
-
-
 
 
 async function getData(input){
@@ -93,6 +93,14 @@ getData("osas2211").then(data => console.log(data.repo))
 
 btn.addEventListener("click", ()=>{
     toggleInterfaces();
+    getData(searchInput.value).then((data) => {
+        showUser(about, repos ,data.profile, data.repo)
+    })
+
+})
+
+btn2.addEventListener("click", ()=>{
+    
     getData(searchInput.value).then((data) => {
         showUser(about, repos ,data.profile, data.repo)
     })
