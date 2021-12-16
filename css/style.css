@@ -149,12 +149,12 @@ img{
 .name{
     transform: rotate(90deg);
     position: absolute;
-    top: 52.5rem;
-    left: -28.4rem;
+    top: 46.5rem;
+    left: -22.5rem;
     font-size: 1.2rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    width: 150vh;
+    width: 50rem;
     height: auto;
     z-index: 9;
     
