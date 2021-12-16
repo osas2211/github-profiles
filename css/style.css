@@ -127,6 +127,10 @@ img{
     z-index: -5;
 }
 
+.user-img{
+    transition: .5s ease-in-out;
+}
+
 .ham{
     width: 2.5rem;
     height: 2.5rem;
@@ -149,7 +153,7 @@ img{
 .name{
     transform: rotate(90deg);
     position: absolute;
-    top: 48.5rem;
+    top: 51.5rem;
     left: -22.5rem;
     font-size: 1.2rem;
     letter-spacing: 6px;
@@ -183,6 +187,7 @@ a.profile{
     bottom: -1.5rem;
     right: 0rem;
     z-index: 600;
+    transition: .5s ease-in-out;
 }
 
 

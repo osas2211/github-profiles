@@ -3,10 +3,12 @@ const topHeader = document.querySelector(".top");
 const mainHeader = document.querySelector(".main-header");
 const repos  = document.querySelector(".cards");
 const about = document.querySelector(".about");
-const btn = document.querySelector("#search");
+const btn = document.querySelector(".live");
 const btn2 = document.querySelector(".main-search");
 const form = document.querySelector("form");
-const searchInput = document.querySelector("#search-name");
+const searchInput = document.querySelector(".live-1");
+const searchInput2 = document.querySelector(".live-2");
+
 
 
 
@@ -101,7 +103,7 @@ btn.addEventListener("click", ()=>{
 
 btn2.addEventListener("click", ()=>{
     
-    getData(searchInput.value).then((data) => {
+    getData(searchInput2.value).then((data) => {
         showUser(about, repos ,data.profile, data.repo)
     })
 
