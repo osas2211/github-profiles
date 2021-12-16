@@ -2,7 +2,14 @@
 
 :root{
     --primary-color: #427AA1;
-    --primary-gradient: linear-gradient(to left)
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
 }
 
 *{
@@ -31,7 +38,44 @@ p, a{
     font-family: "Poppins",Arial, Helvetica, sans-serif;
 }
 
-header{
+.top-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header h3{
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+
+.top-header img{
+    margin-top: 2rem;
+    width: 80%;
+}
+
+form{
+    margin-top: 1rem;
+}
+
+input#search-name{
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: 1rem;
+}
+input#search-name:focus{
+    outline: none;
+}
+input#search{
+    padding: 0.5rem;
+    width: 5rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: #fefffb;
+    cursor: pointer;
+}
+.main-header{
     width: 100vw;
     height: 50vh;
     position: relative;
@@ -205,7 +249,8 @@ a.profile{
 }
 
 footer{
-    margin-top: -2rem;
+    margin-top: 2rem;
     padding: 1rem 2rem;
     color: #101a20;
+
 }
