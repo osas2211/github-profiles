@@ -12,6 +12,14 @@
     display: none;
 }
 
+.hide-2{
+    margin-top: -11rem;
+}
+
+.show-2{
+    margin-top: 0rem;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -75,6 +83,27 @@ input#search{
     color: #fefffb;
     cursor: pointer;
 }
+
+.search-2{
+    position: absolute;
+    background-color: #fefffb;
+    padding: 2rem;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, 0);
+    transition: .5s ease-in-out;
+}
+
+.search-2 a{
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
 .main-header{
     width: 100vw;
     height: 50vh;
