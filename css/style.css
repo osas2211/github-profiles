@@ -183,9 +183,9 @@ a.profile{
     background-color: var(--primary-color);
     color: #fefffb;
     padding: 1.5rem 0.5rem;
-    width: 45%;
-    box-shadow: 2px 2px 9px #0f1d27;
-    margin-bottom: 1.4rem;
+    width: 48%;
+    box-shadow: 2px 2px 9px #1b303f;
+    margin-bottom: 1rem;
     border-radius: 5px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
