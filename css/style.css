@@ -72,8 +72,8 @@ img, header div{
 .name{
     transform: rotate(90deg);
     position: absolute;
-    bottom: -19rem;
-    left: -13.4rem;
+    bottom: -21.5rem;
+    left: -15.9rem;
     font-size: 1.2rem;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -81,7 +81,7 @@ img, header div{
 
 .name span{
     display: inline-block;
-    width: 17rem;
+    width: 22rem;
     height: 0rem;
     border: 1px solid var(--primary-color);
     text-align: center;
@@ -174,7 +174,9 @@ a.profile{
     text-align: center;
     margin-top: 1.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -182,8 +184,8 @@ a.profile{
     display: inline-block;
     background-color: var(--primary-color);
     color: #fefffb;
-    padding: 1.5rem 0.5rem;
-    width: 48%;
+    padding: 2rem 1rem;
+    width: 100%;
     box-shadow: 2px 2px 9px #1b303f;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -203,9 +205,7 @@ a.profile{
 }
 
 footer{
-    background-color: var(--primary-color);
-    padding: 1rem;
-    text-align: center;
-    color: #fefffb;
-    box-shadow: 2px 2px 5px #475f70 inset;
+    margin-top: -2rem;
+    padding: 1rem 2rem;
+    color: #101a20;
 }
