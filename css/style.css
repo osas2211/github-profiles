@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #427AA1;
+    --primary-gradient: linear-gradient(to left)
 }
 
 *{
@@ -62,7 +63,7 @@ img, header div{
     height: 2rem;
     position: absolute;
     bottom: -1rem;
-    left: 2.3rem;
+    left: 1.8rem;
     background-color: #fff;
     border-radius: 50%;
     z-index: 50;
@@ -71,8 +72,8 @@ img, header div{
 .name{
     transform: rotate(90deg);
     position: absolute;
-    bottom: -18rem;
-    left: -11.8rem;
+    bottom: -19rem;
+    left: -13.4rem;
     font-size: 1.2rem;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -80,7 +81,7 @@ img, header div{
 
 .name span{
     display: inline-block;
-    width: 15rem;
+    width: 17rem;
     height: 0rem;
     border: 1px solid var(--primary-color);
     text-align: center;
@@ -124,7 +125,7 @@ a.profile{
 }
 
 .about, .repos{
-    margin: 8rem 1rem 2rem 6.1rem;
+    margin: 8rem 1rem 2rem 5.3rem;
     position: relative;
     z-index: -4;
 }
@@ -161,4 +162,48 @@ a.profile{
 
 .repos{
     margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.repos h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cards {
+    text-align: center;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.repo{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fefffb;
+    padding: 1.5rem 1rem;
+    box-shadow: 2px 2px 9px #0f1d27;
+    margin-bottom: 1.4rem;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.repo a{
+    color: var(--primary-color);
+    padding: 0.5rem;
+    background-color: #fefffb;
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 1px 2px 5px #55a6e09c inset;
+    
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: #fefffb;
+    box-shadow: 2px 2px 5px #475f70 inset;
 }
